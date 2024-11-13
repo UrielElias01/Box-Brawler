@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: 3e8fee65e61543943b3662001a0a1087
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2269033703956029988
+    second: DosCaballeros_0
+  - first:
+      213: -4333499260179576102
+    second: DosCaballeros_1
+  - first:
+      213: -1013584656740846058
+    second: DosCaballeros_2
+  - first:
+      213: -2503872302036488946
+    second: DosCaballeros_3
+  - first:
+      213: -2752096066977306688
+    second: DosCaballeros_4
+  - first:
+      213: -5254257631523567660
+    second: DosCaballeros_5
+  - first:
+      213: -2957336421470008468
+    second: DosCaballeros_6
+  - first:
+      213: -3055943992036738641
+    second: DosCaballeros_7
+  - first:
+      213: 3408628648049316231
+    second: DosCaballeros_8
+  - first:
+      213: -4429327403174981570
+    second: DosCaballeros_9
+  - first:
+      213: 5849292738597818638
+    second: DosCaballeros_10
+  - first:
+      213: -120263037637451939
+    second: DosCaballeros_11
+  - first:
+      213: -8933643959609046237
+    second: DosCaballeros_12
+  - first:
+      213: -1428658058115615566
+    second: DosCaballeros_13
+  - first:
+      213: 1448955136450965734
+    second: DosCaballeros_14
+  - first:
+      213: -1333348644283452407
+    second: DosCaballeros_15
+  - first:
+      213: 3504075624114382724
+    second: DosCaballeros_16
+  - first:
+      213: -6843690075216579944
+    second: DosCaballeros_17
+  - first:
+      213: 1039532527245071463
+    second: DosCaballeros_18
+  - first:
+      213: -8457889711233053282
+    second: DosCaballeros_19
+  - first:
+      213: -8534888440005348266
+    second: DosCaballeros_20
+  - first:
+      213: 1029465653156284877
+    second: DosCaballeros_21
+  - first:
+      213: 5395188666296102752
+    second: DosCaballeros_22
+  - first:
+      213: -3348888201954903056
+    second: DosCaballeros_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DosCaballeros_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 212
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdddf4c3ed5c280e0800000000000000
+      internalID: -2269033703956029988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 212
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada049af1615cd3c0800000000000000
+      internalID: -4333499260179576102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 212
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616fc29ff160fe1f0800000000000000
+      internalID: -1013584656740846058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 212
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dec2a4865704dd0800000000000000
+      internalID: -2503872302036488946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 212
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7611455379ec9d0800000000000000
+      internalID: -2752096066977306688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 212
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d707aab5802517b0800000000000000
+      internalID: -5254257631523567660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 147
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b84fc713e65f6d0800000000000000
+      internalID: -2957336421470008468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 147
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9392d512b1795d0800000000000000
+      internalID: -3055943992036738641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 147
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781133a12b1ed4f20800000000000000
+      internalID: 3408628648049316231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 147
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e301ad3c13ed782c0800000000000000
+      internalID: -4429327403174981570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 147
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01156f31ccdc2150800000000000000
+      internalID: 5849292738597818638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 147
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f920a876db45ef0800000000000000
+      internalID: -120263037637451939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 82
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b40b5b622550480800000000000000
+      internalID: -8933643959609046237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 82
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4f484c0136c2ce0800000000000000
+      internalID: -1428658058115615566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 82
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e033ab0509bb1410800000000000000
+      internalID: 1448955136450965734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 82
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9047cbfe87efe7de0800000000000000
+      internalID: -1333348644283452407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 82
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4876179f63af0a030800000000000000
+      internalID: 3504075624114382724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 82
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89279d1d2245601a0800000000000000
+      internalID: -6843690075216579944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 17
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76418ea63592d6e00800000000000000
+      internalID: 1039532527245071463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 17
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9dc5849e1a8f9a80800000000000000
+      internalID: -8457889711233053282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 17
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654b4effe2cfd8980800000000000000
+      internalID: -8534888440005348266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 17
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc988d4ae85694e00800000000000000
+      internalID: 1029465653156284877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 17
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06feacec18f8fda40800000000000000
+      internalID: 5395188666296102752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DosCaballeros_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 17
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb3bf96ceb5681d0800000000000000
+      internalID: -3348888201954903056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DosCaballeros_0: -2269033703956029988
+      DosCaballeros_1: -4333499260179576102
+      DosCaballeros_10: 5849292738597818638
+      DosCaballeros_11: -120263037637451939
+      DosCaballeros_12: -8933643959609046237
+      DosCaballeros_13: -1428658058115615566
+      DosCaballeros_14: 1448955136450965734
+      DosCaballeros_15: -1333348644283452407
+      DosCaballeros_16: 3504075624114382724
+      DosCaballeros_17: -6843690075216579944
+      DosCaballeros_18: 1039532527245071463
+      DosCaballeros_19: -8457889711233053282
+      DosCaballeros_2: -1013584656740846058
+      DosCaballeros_20: -8534888440005348266
+      DosCaballeros_21: 1029465653156284877
+      DosCaballeros_22: 5395188666296102752
+      DosCaballeros_23: -3348888201954903056
+      DosCaballeros_3: -2503872302036488946
+      DosCaballeros_4: -2752096066977306688
+      DosCaballeros_5: -5254257631523567660
+      DosCaballeros_6: -2957336421470008468
+      DosCaballeros_7: -3055943992036738641
+      DosCaballeros_8: 3408628648049316231
+      DosCaballeros_9: -4429327403174981570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
