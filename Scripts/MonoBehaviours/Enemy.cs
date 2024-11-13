@@ -6,12 +6,18 @@ public class Enemy : MonoBehaviour
     public float speed = 2f;          // Velocidad de movimiento hacia el jugador
     public float attackRange = 1f;    // Rango de ataque
     public int damage = 30;           // Daño que el enemigo inflige al jugador
+    public int maxHealth = 100;       // Salud máxima del enemigo
+    public int currentHealth;        // Salud actual del enemigo
+
     private Transform player;         // Referencia al jugador
     private bool isAttacking = false; // Controla si el enemigo está atacando
     private bool playerInDetectionArea = false; // Controla si el jugador está en el área de detección
 
     void Start()
     {
+        // Configurar la salud inicial del enemigo
+        currentHealth = maxHealth;
+
         // Buscar al jugador en la escena mediante su tag (Asegúrate de que el jugador tenga el tag "Player")
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -35,6 +41,26 @@ public class Enemy : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
             }
         }
+    }
+
+    // Método para recibir daño
+    public void TakeDamage(int damageAmount)
+    {
+        currentHealth -= damageAmount;
+        Debug.Log("Enemigo recibió " + damageAmount + " de daño. Vida restante: " + currentHealth);
+
+        // Comprobar si la salud ha llegado a cero o menos
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    // Método para manejar la muerte del enemigo
+    private void Die()
+    {
+        Debug.Log("El enemigo ha sido derrotado.");
+        Destroy(gameObject); // Destruir el objeto del enemigo
     }
 
     // Corrutina para manejar el ataque del enemigo
