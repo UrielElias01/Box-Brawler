@@ -4,7 +4,7 @@ public class Sword : MonoBehaviour
 {
     Animator animator;
     string animationState = "Estado"; // Nombre del parámetro de estado en el Animator
-    int currentDirectionState; // Variable para almacenar el estado de dirección actual
+    int currentDirectionState = (int)CharStates.derecha; // Variable para almacenar el estado de dirección actual
 
     public int swordDamage = 10; // Daño que la espada inflige al enemigo
 
@@ -59,41 +59,55 @@ public class Sword : MonoBehaviour
             animator.SetInteger(animationState, currentDirectionState);
             Debug.Log("Estado cambiado a izquierda.");
         }
+        else if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S))
+        {
+            // Para los movimientos hacia arriba (W) y abajo (S), establecer dirección en derecha por defecto
+            currentDirectionState = (int)CharStates.derecha;
+            animator.SetInteger(animationState, currentDirectionState);
+            Debug.Log("Moviendo hacia arriba o abajo. Dirección cambiada a derecha por defecto.");
+        }
     }
+
 
     private void PerformAttack()
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            // Realizar el ataque según la última dirección conocida, que por defecto es derecha
-            if (currentDirectionState == (int)CharStates.derecha)
-            {
-                Debug.Log("Atacando hacia la derecha con Trigger 'Attack'.");
-                animator.ResetTrigger("Attack2"); // Asegurarse de que 'Attack2' no esté activado
-                animator.SetTrigger("Attack");
-            }
-            else if (currentDirectionState == (int)CharStates.izquierda)
+            // Restablece triggers para evitar conflictos
+            animator.SetTrigger("Attack");
+            animator.ResetTrigger("Attack");
+            animator.ResetTrigger("Attack2");
+
+            // Verifica la dirección actual y establece la animación adecuada
+            if (currentDirectionState == (int)CharStates.izquierda)
             {
                 Debug.Log("Atacando hacia la izquierda con Trigger 'Attack2'.");
-                animator.ResetTrigger("Attack"); // Asegurarse de que 'Attack' no esté activado
                 animator.SetTrigger("Attack2");
+            }
+            else
+            {
+                // Si la dirección es 'derecha' o no ha sido definida, ataca hacia la derecha por defecto
+                Debug.Log("Atacando hacia la derecha con Trigger 'Attack'.");
+                animator.SetTrigger("Attack");
             }
         }
     }
 
+
+
     // Este método se activará cuando la espada colisione con otro objeto
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy")) // Verifica si el objeto tiene el tag "Enemy"
+        // Verifica si el collider es de tipo BoxCollider2D y tiene el tag "Enemy"
+        if (collision.CompareTag("Enemy") && collision is BoxCollider2D)
         {
-            // Obtener el componente Enemy del objeto colisionado
             Enemy enemyScript = collision.GetComponent<Enemy>();
             if (enemyScript != null)
             {
-                // Reducir la vida del enemigo
                 enemyScript.TakeDamage(swordDamage);
                 Debug.Log("Enemigo golpeado por la espada. Vida restante: " + enemyScript.currentHealth);
             }
         }
     }
+
 }

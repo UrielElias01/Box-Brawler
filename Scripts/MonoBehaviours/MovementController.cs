@@ -38,7 +38,8 @@ public class MovementController : MonoBehaviour
 
     void Update()
     {
-        this.UpdateState();  //invoca al metodo
+        this.UpdateState();  //invoca al meto
+
     }
 
     private void FixedUpdate()
